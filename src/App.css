@@ -1,0 +1,43 @@
+.sendMessage button {
+  background: #3ad159;
+  padding: 10px;
+  width: 100%;
+  margin-top: 14%;
+  border: none;
+  cursor: pointer;
+}
+
+.ant-card ant-card-bordered ant-card-hoverable {
+  width: 0%;
+}
+
+.sendMessage button::before {
+  content: "Hacer pedido";
+  color: white;
+}
+
+#imagen {
+  image-rendering: -webkit-optimize-contrast
+}
+
+.buttonPopover {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  margin: 10px;
+}
+
+button.ButtonToggle {
+  background: #e71010;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+img.logo {
+  width: 100%;
+  padding: 10px;
+}
