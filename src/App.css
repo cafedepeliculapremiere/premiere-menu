@@ -28,6 +28,14 @@
   margin: 10px;
 }
 
+h6.enlineaCarlos {
+  margin-right: 2px;
+}
+
+h6.enlineaAlfonso {
+  margin-right: 2px;
+}
+
 button.ButtonToggle {
   background: #e71010;
   color: white;

@@ -24,7 +24,7 @@ function App() {
   const content = (
     <div>
       <>
-        <h5>Elige al mesero que te atendio?</h5>
+        <h5>Elige un contacto.</h5>
         <select
           name="waiter"
           onChange={(e) => {
@@ -34,8 +34,12 @@ function App() {
           <option value="" selected>
             Selecciona...
           </option>
-          <option value="3185211686">Carlos Mario florez</option>
-          <option value="3147648668">Alfonso Hernandez</option>
+          <option value="3185211686">
+            <h6 className="enlineaCarlos">Carlos Mario florez - En linea</h6>
+          </option>
+          <option value="3147648668">
+            <h6 className="enlineaAlfonso">Alfonso Hernandez - En linea</h6>
+          </option>
         </select>
         <br />
         <br />
