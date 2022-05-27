@@ -34,9 +34,8 @@ function App() {
           <option value="" selected>
             Selecciona...
           </option>
-          <option value="3137137829">Diego Alejandro Lugo Tellez</option>
-          <option value="3116877470">Juan Guillermo</option>
-          <option value="3148133470">Jhon Deiby Montoya</option>
+          <option value="3185211686">Carlos Mario florez</option>
+          <option value="3147648668">Alfonso Hernandez</option>
         </select>
         <br />
         <br />
