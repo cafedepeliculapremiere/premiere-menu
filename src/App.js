@@ -88,7 +88,7 @@ function App() {
       <button onClick={()=> setVisible(true)} className="buttonShowMenu">
       Ver nuestro menu
       </button>
-      <img src={logo} className="logoInicio"/>
+      <img src={portada} className="logoInicio"/>
       <div style={{ display: "none" }}>
         <Image.PreviewGroup
           preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
