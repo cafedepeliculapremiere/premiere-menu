@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a691d4c2.css",
+    "main.css": "/static/css/main.13cc0203.css",
     "main.js": "/static/js/main.a5e9f4f1.js",
     "static/js/787.aee78ea2.chunk.js": "/static/js/787.aee78ea2.chunk.js",
     "static/media/lugo-01.webp": "/static/media/lugo-01.0dcce0ff174a180854ce.webp",
@@ -11,12 +11,12 @@
     "static/media/PORTADA.webp": "/static/media/PORTADA.24cb60570f8acc4813c9.webp",
     "static/media/logo.png": "/static/media/logo.f5e399dd9e3c4f92d71d.png",
     "index.html": "/index.html",
-    "main.a691d4c2.css.map": "/static/css/main.a691d4c2.css.map",
+    "main.13cc0203.css.map": "/static/css/main.13cc0203.css.map",
     "main.a5e9f4f1.js.map": "/static/js/main.a5e9f4f1.js.map",
     "787.aee78ea2.chunk.js.map": "/static/js/787.aee78ea2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a691d4c2.css",
+    "static/css/main.13cc0203.css",
     "static/js/main.a5e9f4f1.js"
   ]
 }

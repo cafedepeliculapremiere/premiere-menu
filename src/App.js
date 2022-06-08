@@ -1,5 +1,5 @@
 import "./App.css";
-import portada from "./assets/PORTADA.webp";
+import portada from "./assets/portada.png";
 import pagina1 from "./assets/lugo-01.webp";
 import pagina2 from "./assets/lugo-02.webp";
 import pagina3 from "./assets/lugo-03.webp";
