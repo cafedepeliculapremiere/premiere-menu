@@ -5,10 +5,11 @@ import pagina2 from "./assets/lugo-02.webp";
 import pagina3 from "./assets/lugo-03.webp";
 import pagina4 from "./assets/lugo-04.webp";
 import pagina5 from "./assets/lugo-05.webp";
+import logo from "./assets/logo.png"
 import ReactWhatsapp from "react-whatsapp";
 import { Popover, Input } from "antd";
 import { useState } from "react";
-import { Image } from "antd";
+import {Button, Image } from "antd";
 
 function App() {
   const text = <span>Que deseas pedir?</span>;
@@ -17,13 +18,17 @@ function App() {
   const [postData, setPostData] = useState({
     waiter: "",
     message: "",
+    table: 0,
   });
+
+    const arrayTable = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
 
   const [visible, setVisible] = useState(false);
 
   const content = (
     <div>
       <>
+      <img src={logo} className="logoForm"/>
         <h5>Elige un contacto.</h5>
         <select
           name="waiter"
@@ -41,6 +46,19 @@ function App() {
             <h6 className="enlineaAlfonso">Alfonso Hernandez - En linea</h6>
           </option>
         </select>
+        <br />
+        <br />
+      <h5>Tabla donde estas ubicado?</h5>
+      <select name="table" onChange={(e) => {
+          setPostData({ ...postData, table: e.target.value });
+      }}>
+      {
+      arrayTable.map((number) => {
+          return (
+              <option value={number}>{number}</option>
+          )
+      })}
+      </select>
         <br />
         <br />
         <TextArea
@@ -67,21 +85,20 @@ function App() {
 
   return (
     <>
-      <Image
-        preview={{ visible: false }}
-        src={portada}
-        onClick={() => setVisible(true)}
-      />
+      <button onClick={()=> setVisible(true)} className="buttonShowMenu">
+      Ver nuestro menu
+      </button>
+      <img src={logo} className="logoInicio"/>
       <div style={{ display: "none" }}>
         <Image.PreviewGroup
           preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
         >
-          <Image src={portada} />
-          <Image src={pagina1} />
-          <Image src={pagina2} />
-          <Image src={pagina3} />
-          <Image src={pagina4} />
-          <Image src={pagina5} />
+          <Image width={200} src={portada} />
+          <Image width={200} src={pagina1} />
+          <Image width={200} src={pagina2} />
+          <Image width={200} src={pagina3} />
+          <Image width={200} src={pagina4} />
+          <Image width={200} src={pagina5} />
         </Image.PreviewGroup>
       </div>
       <div className="buttonPopover">

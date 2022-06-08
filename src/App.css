@@ -7,6 +7,16 @@
   cursor: pointer;
 }
 
+.buttonShowMenu {
+    margin: 1%;
+    background-color: #53BAFA;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .ant-card ant-card-bordered ant-card-hoverable {
   width: 0%;
 }
@@ -48,4 +58,15 @@ button.ButtonToggle {
 img.logo {
   width: 100%;
   padding: 10px;
+}
+
+.logoForm {
+    width: 111px;
+    margin: 20%;
+}
+
+.logoInicio {
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
