@@ -75,7 +75,7 @@ function App() {
         <div className="sendMessage">
           <ReactWhatsapp
             number={`+57${postData.waiter}`}
-            message={postData.message}
+            message={'mesa: ' + postData.table + '\n' + postData.message}
           />
         </div>
         <h6>Se realizara el envio por medio de WhatsApp</h6>
